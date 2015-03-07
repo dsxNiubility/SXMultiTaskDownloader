@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<videos>
+    <video videoId="1">
+        <name>01.同学聚会必备的高端谈资</name>
+        <length>320</length>
+        <videoURL>http://free2.macx.cn:8182/Tools/System/CleanMyMac227.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/33/54fac5ff57a04776.jpg!200x200.jpg</imageURL>
+        <desc>同学聚会必备的高端谈资</desc>
+        <teacher>董铂然</teacher>
+    </video>
+    <video videoId="2">
+        <name>02.压岁钱就应该这样花</name>
+        <length>2708</length>
+        <videoURL>http://free2.macx.cn:8182/tools/system/1Password51.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/35/54fac645c2dd3734.png!200x200.jpg</imageURL>
+        <desc>年终奖压岁钱就应该这样花</desc>
+        <teacher>董铂然</teacher>
+    </video>
+    <video videoId="3">
+        <name>03.既然要相亲，何以被挑剔</name>
+        <length>822</length>
+        <videoURL>http://free2.macx.cn:8182/Tools/System/Hazel334.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/15/54fac19d62868352.jpg!200x200.jpg</imageURL>
+        <desc>既然要相亲，何以被挑剔</desc>
+        <teacher>董铂然</teacher>
+    </video>
+    <video videoId="4">
+        <name>04.做爱不是色情</name>
+        <length>1113</length>
+        <videoURL>http://free2.macx.cn:8182/Tools/System/CleanApp-v3-4-12.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/15/54fac1b10320e968.jpg!200x200.jpg</imageURL>
+        <desc>做爱不是色情</desc>
+        <teacher>董铂然</teacher>
+    </video><video videoId="5">
+        <name>05.耶鲁大学博弈论</name>
+        <length>594</length>
+        <videoURL>http://free2.macx.cn:8182/Tools/System/BetterZip234.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/15/54fac1a9dd61d665.jpg!200x200.jpg</imageURL>
+        <desc>耶鲁大学博弈论</desc>
+        <teacher>董铂然</teacher>
+    </video><video videoId="6">
+        <name>06.经济学得基本思维方式</name>
+        <length>923</length>
+        <videoURL>http://free2.macx.cn:8182/Tools/system/Keka104.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/15/54fac1a0af72c186.jpg!200x200.jpg</imageURL>
+        <desc>经济学得基本思维方式</desc>
+        <teacher>董铂然</teacher>
+    </video>
+    <video videoId="7">
+        <name>07.银行是怎样被掏空的</name>
+        <length>848</length>
+        <videoURL>http://free2.macx.cn:8182/Tools/system/RAR-Expert-v1.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/33/54fac5eec758f986.jpg!200x200.jpg</imageURL>
+        <desc>银行是怎样被掏空的</desc>
+        <teacher>董铂然</teacher>
+    </video>
+    <video videoId="8">
+        <name>08.蚂蚁给人类的启发</name>
+        <length>502</length>
+        <videoURL>http://free2.macx.cn:8182/tools/system/rarmachine112.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/33/54fac5f6407cb270.png!200x200.jpg</imageURL>
+        <desc>蚂蚁给人类的启发</desc>
+        <teacher>董铂然</teacher>
+    </video>
+    <video videoId="9">
+        <name>09.消费者需要你更重要</name>
+        <length>558</length>
+        <videoURL>http://free2.macx.cn:8182/tools/system/TheUnarchiver351.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/18/54fac24ee7261252.jpeg!200x200.jpg</imageURL>
+        <desc>消费者需要你必喜欢你更重要</desc>
+        <teacher>董铂然</teacher>
+    </video>
+    <video videoId="10">
+        <name>10.艾玛沃特森为女性发声</name>
+        <length>1682</length>
+        <videoURL>http://free2.macx.cn:8182/tools/system/WinZip3.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/34/54fac61bae30d867.png!200x200.jpg</imageURL>
+        <desc>艾玛沃特森世界经济论坛为女性发声</desc>
+        <teacher>董铂然</teacher>
+    </video>
+    <video videoId="11">
+        <name>11.教你打造各种风格的花园</name>
+        <length>1092</length>
+        <videoURL>http://free2.macx.cn:8182/tools/system/sArchiver-v3-8-8.dmg</videoURL>
+        <imageURL>http://v1.qzone.cc/avatar/201503/07/17/35/54fac653528c0976.png!200x200.jpg</imageURL>
+        <desc>教你打造各种风格的花园</desc>
+        <teacher>董铂然</teacher>
+    </video>
+</videos>

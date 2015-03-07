@@ -35,6 +35,7 @@
 		1DA2C8D91A6681BE002CE0CD /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2C8C51A6681BE002CE0CD /* UIImageView+HighlightedWebCache.m */; };
 		1DA2C8DA1A6681BE002CE0CD /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2C8C71A6681BE002CE0CD /* UIImageView+WebCache.m */; };
 		1DA2C8DB1A6681BE002CE0CD /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2C8C91A6681BE002CE0CD /* UIView+WebCacheOperation.m */; };
+		1DA7FE221AAB42010001CE29 /* vvv.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1DA7FE211AAB42010001CE29 /* vvv.xml */; };
 		1DF7EAF51A66BBAF0040E46B /* ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7EAF41A66BBAF0040E46B /* ViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +106,7 @@
 		1DA2C8C71A6681BE002CE0CD /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		1DA2C8C81A6681BE002CE0CD /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		1DA2C8C91A6681BE002CE0CD /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		1DA7FE211AAB42010001CE29 /* vvv.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vvv.xml; sourceTree = "<group>"; };
 		1DF7EAF31A66BBAF0040E46B /* ViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCell.h; sourceTree = "<group>"; };
 		1DF7EAF41A66BBAF0040E46B /* ViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,6 +184,7 @@
 		1DA2C87C1A667ECD002CE0CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1DA7FE211AAB42010001CE29 /* vvv.xml */,
 				1DA2C87D1A667ECD002CE0CD /* Info.plist */,
 				1DA2C87E1A667ECD002CE0CD /* main.m */,
 			);
@@ -343,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA7FE221AAB42010001CE29 /* vvv.xml in Resources */,
 				1DA2C8881A667ECD002CE0CD /* Main.storyboard in Resources */,
 				1DA2C88D1A667ECD002CE0CD /* LaunchScreen.xib in Resources */,
 				1DA2C88A1A667ECD002CE0CD /* Images.xcassets in Resources */,

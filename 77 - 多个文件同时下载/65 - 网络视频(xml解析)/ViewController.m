@@ -110,15 +110,21 @@
 
 #pragma mark - /************************* 下载数据 ***************************/
 - (IBAction)loadData{
-    NSURL *url = [NSURL URLWithString:@"http://localhost/vvv.xml"];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:1 timeoutInterval:3.0];
-    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
-        
-        NSXMLParser *parser = [[NSXMLParser alloc]initWithData:data]; // $$$$$
-        
-        parser.delegate = self;
-        [parser parse];
-    }];
+//    NSURL *url = [NSURL URLWithString:@"http://localhost/vvv.xml"];
+//    NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:1 timeoutInterval:3.0];
+//    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+//        
+//        NSXMLParser *parser = [[NSXMLParser alloc]initWithData:data]; // $$$$$
+//        
+//        parser.delegate = self;
+//        [parser parse];
+//    }];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"vvv.xml" ofType:nil];
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    NSXMLParser *parser = [[NSXMLParser alloc]initWithData:data];
+    parser.delegate = self;
+    [parser parse];
 }
 
 #pragma mark - /************************* NSXMLPaeser的代理方法 ***************************/
