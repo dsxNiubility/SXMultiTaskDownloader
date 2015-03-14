@@ -17,6 +17,7 @@
     self.titleLabel.text = [NSString stringWithFormat:@"%.01f%%",self.progress * 100];
     
     [self setNeedsDisplay];
+    
 }
 
 - (void)awakeFromNib

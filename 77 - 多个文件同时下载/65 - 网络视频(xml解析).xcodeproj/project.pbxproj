@@ -36,6 +36,9 @@
 		1DA2C8DA1A6681BE002CE0CD /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2C8C71A6681BE002CE0CD /* UIImageView+WebCache.m */; };
 		1DA2C8DB1A6681BE002CE0CD /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2C8C91A6681BE002CE0CD /* UIView+WebCacheOperation.m */; };
 		1DA7FE221AAB42010001CE29 /* vvv.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1DA7FE211AAB42010001CE29 /* vvv.xml */; };
+		1DA7FE2A1AAB4DC80001CE29 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA7FE251AAB4DC80001CE29 /* SVIndefiniteAnimatedView.m */; };
+		1DA7FE2B1AAB4DC80001CE29 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DA7FE271AAB4DC80001CE29 /* SVProgressHUD.bundle */; };
+		1DA7FE2C1AAB4DC80001CE29 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA7FE291AAB4DC80001CE29 /* SVProgressHUD.m */; };
 		1DF7EAF51A66BBAF0040E46B /* ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7EAF41A66BBAF0040E46B /* ViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +110,12 @@
 		1DA2C8C81A6681BE002CE0CD /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		1DA2C8C91A6681BE002CE0CD /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		1DA7FE211AAB42010001CE29 /* vvv.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vvv.xml; sourceTree = "<group>"; };
+		1DA7FE241AAB4DC80001CE29 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		1DA7FE251AAB4DC80001CE29 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		1DA7FE261AAB4DC80001CE29 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		1DA7FE271AAB4DC80001CE29 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		1DA7FE281AAB4DC80001CE29 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		1DA7FE291AAB4DC80001CE29 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		1DF7EAF31A66BBAF0040E46B /* ViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCell.h; sourceTree = "<group>"; };
 		1DF7EAF41A66BBAF0040E46B /* ViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,6 +172,7 @@
 		1DA2C87B1A667ECD002CE0CD /* 65 - 网络视频(xml解析) */ = {
 			isa = PBXGroup;
 			children = (
+				1DA7FE231AAB4DC80001CE29 /* SVProgressHUD */,
 				1D9EF98F1A6EB84A0020B6BB /* downLoader */,
 				1DA2C8A21A6681BE002CE0CD /* Log */,
 				1DA2C8A51A6681BE002CE0CD /* Model */,
@@ -266,6 +276,19 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		1DA7FE231AAB4DC80001CE29 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1DA7FE241AAB4DC80001CE29 /* SVIndefiniteAnimatedView.h */,
+				1DA7FE251AAB4DC80001CE29 /* SVIndefiniteAnimatedView.m */,
+				1DA7FE261AAB4DC80001CE29 /* SVProgressHUD-Prefix.pch */,
+				1DA7FE271AAB4DC80001CE29 /* SVProgressHUD.bundle */,
+				1DA7FE281AAB4DC80001CE29 /* SVProgressHUD.h */,
+				1DA7FE291AAB4DC80001CE29 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA7FE2B1AAB4DC80001CE29 /* SVProgressHUD.bundle in Resources */,
 				1DA7FE221AAB42010001CE29 /* vvv.xml in Resources */,
 				1DA2C8881A667ECD002CE0CD /* Main.storyboard in Resources */,
 				1DA2C88D1A667ECD002CE0CD /* LaunchScreen.xib in Resources */,
@@ -368,9 +392,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DA2C8851A667ECD002CE0CD /* ViewController.m in Sources */,
+				1DA7FE2A1AAB4DC80001CE29 /* SVIndefiniteAnimatedView.m in Sources */,
 				1DA2C8D91A6681BE002CE0CD /* UIImageView+HighlightedWebCache.m in Sources */,
 				1DA2C8DA1A6681BE002CE0CD /* UIImageView+WebCache.m in Sources */,
 				1DA2C8D81A6681BE002CE0CD /* UIImage+WebP.m in Sources */,
+				1DA7FE2C1AAB4DC80001CE29 /* SVProgressHUD.m in Sources */,
 				1DA2C8D41A6681BE002CE0CD /* SDWebImagePrefetcher.m in Sources */,
 				1DA2C8CA1A6681BE002CE0CD /* NSArray+Log.m in Sources */,
 				1DA2C8D01A6681BE002CE0CD /* SDWebImageDecoder.m in Sources */,

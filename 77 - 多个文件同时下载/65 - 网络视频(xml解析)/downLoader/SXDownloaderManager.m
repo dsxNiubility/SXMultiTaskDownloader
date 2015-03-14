@@ -55,7 +55,7 @@
     
     [self.downLoadCache setObject:download forKey:url.path];
     
-    NSLog(@"下载后往哪放 %@",url.path);
+//    NSLog(@"下载后往哪放 %@",url.path);
     
     [download downLoadWithURL:url progress:progress completion:^(NSString *filePath) {
         [self.downLoadCache removeObjectForKey:url.path];

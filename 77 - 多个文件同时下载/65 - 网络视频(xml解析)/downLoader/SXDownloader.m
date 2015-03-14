@@ -7,6 +7,7 @@
 //
 
 #import "SXDownloader.h"
+#import "SVProgressHUD.h"
 
 @interface SXDownloader ()<NSURLConnectionDataDelegate>
 
@@ -50,6 +51,8 @@
     }
     
     NSLog(@"需要从 %lld 开始下载",self.currentLength);
+    NSString *show = [NSString stringWithFormat:@"总大小是%lld\n需要从%lld开始下载",self.expectedContentLength,self.currentLength];
+    [SVProgressHUD showInfoWithStatus:show maskType:SVProgressHUDMaskTypeBlack];
     [self downLoadFile];
    
 }
@@ -161,12 +164,18 @@
     
     if (fileSize == self.expectedContentLength) {
         NSLog(@"文件已经存在");
+        self.progress(1.0);
+        [SVProgressHUD showInfoWithStatus:@"文件已经存在" maskType:SVProgressHUDMaskTypeBlack];
+        
         return NO ;
     }
     
     self.currentLength = fileSize;
     return YES;
-    
 }
 
 @end
+
+
+//CleanMyMac227.dmg
+//1Password51.dmg
