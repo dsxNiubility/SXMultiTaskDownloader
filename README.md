@@ -1,7 +1,7 @@
 # SXMultiTaskDownloader
 多任务异步下载器
 
-![image](https://github.com/dsxNiubility/多线程异步下载器/raw/master/screenshots/DownLoader.gif)
+![image](https://github.com/dsxNiubility/SXMultiTaskDownloader/raw/master/screenshots/DownLoader.gif)
 
 * 使用了自写的下载工具单例类
 * 可以实现`多个`文件同时`异步`下载，主界面拖拽`完全无卡顿`
